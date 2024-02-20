@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 13
+names: ['angry', 'cloth', 'happy', 'kn95', 'mask', 'mask_weared_incorrect', 'n95', 'neutral', 'sad', 'surgical', 'surprised', 'with_mask', 'without_mask']
+
+roboflow:
+  workspace: yolo-1ulj8
+  project: masks-detection-kwy1r
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-1ulj8/masks-detection-kwy1r/dataset/3
